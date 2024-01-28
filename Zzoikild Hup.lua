@@ -6,7 +6,7 @@ local Window = Fluent:CreateWindow({
     Title = "Zzoikild Hup",
     SubTitle = "By Nguyễn Minh Hiếu",
     TabWidth = 160,
-    Size = UDim2.fromOffset(350, 200),
+    Size = UDim2.fromOffset(450, 300),
     Acrylic = true, -- The blur may be detectable, setting this to false disables blur entirely
     Theme = "Darker",
     MinimizeKey = Enum.KeyCode.End -- Used when theres no MinimizeKeybind
@@ -21,8 +21,8 @@ local Tabs = {
     Raid = Window:AddTab({ Title = "Dungeon", Icon = "swords" }),
     Race = Window:AddTab({ Title = "Race V4", Icon = "chevrons-right" }),
     Shop = Window:AddTab({ Title = "Shop", Icon = "shopping-cart" }),
-	  Misc = Window:AddTab({ Title = "Misc", Icon = "list-plus" }),
-	  ZoiHup = Window:AddTab({ Title = "Zoi", Icon = "rbxassetid://13584707943" }),
+    Misc = Window:AddTab({ Title = "Misc", Icon = "list-plus" }),
+    ZoiHup = Window:AddTab({ Title = "Zoi", Icon = "baby" }),
 }
 local Options = Fluent.Options
 
@@ -6293,5 +6293,5 @@ Tabs.Zoi:AddParagraph({
 - đang lớp học 9B
 - tthcsth
 ===================================",
-end
+          end
 })
